@@ -3,7 +3,7 @@ import time
 
 
 eng_words = ['Hi','Bye','Task', 'Programm']
-fr_words = ['Salut','Au revoir','Tâche', 'Programme']
+sp_words = ['Hola','Adiós','Tarea', 'Programa']
 score = 0
 
 mode = input("Pick a mode: 0 - add new words, 1 - training: \n")
