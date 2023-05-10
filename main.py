@@ -13,9 +13,9 @@ while ((mode != '0') and (mode != '1')):
 if mode == "1":
     print("¡Traduce tantas palabras como puedas! ¡Tienes 10 intentos!")
     for i in range(10):
-        number = random.randint(0, len(eng_words))
+        number = random.randint(0, len(eng_words)-1)
         print("Cómo deberíamos traducirlo " + eng_words[number])
-        if input() == fr_words[number]:
+        if input() == sp_words[number]:
             print("¡¡¡Genial!!!")
             score += 1
         else:
